@@ -1,9 +1,9 @@
 -------------------------------------------------------------------------------------------------
---Script Name	: info.sql
---Description	: Displays Information about the Oracle database environment
---Args        : None
---Author    	: Abhilash Kumar Bhattaram
---Email      	: abhilash8@gmail.com                                           
+--Script Name	  : info.sql
+--Description	  : Displays Information about the Oracle database environment
+--Args          : None
+--Author    	  : Abhilash Kumar Bhattaram
+--Email      	  : abhilash8@gmail.com                                           
 -------------------------------------------------------------------------------------------------
 SET NEWPAGE NONE
 SET PAGESIZE 0
