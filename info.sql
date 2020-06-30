@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------------------------
---Script Name	  : info.sql
+--Script Name   : info.sql
 --Description	  : Displays Information about the Oracle database environment
 --Args          : None
 --Author    	  : Abhilash Kumar Bhattaram
@@ -66,3 +66,5 @@ select * from v$version;
 set time off
 set echo off
 set lines 227 pages 1000 long 1000000 longchunksize 196 timing on serveroutput on size 1000000 trimspool on sqlprompt '&_CONNECT_IDENTIFIER> '
+
+
