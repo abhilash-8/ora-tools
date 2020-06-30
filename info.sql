@@ -66,5 +66,3 @@ select * from v$version;
 set time off
 set echo off
 set lines 227 pages 1000 long 1000000 longchunksize 196 timing on serveroutput on size 1000000 trimspool on sqlprompt '&_CONNECT_IDENTIFIER> '
-
-
