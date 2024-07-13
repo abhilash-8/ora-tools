@@ -6,7 +6,7 @@
 --Email          : abhilash8@gmail.com     
 --GitHb          : https://github.com/abhilash-8/objlst
 -------------------------------------------------------------------------------------------------
-
+set lines 500 pages 500
 col owner for a25
 compute sum of TABLES TABLEPARTITION   INDEXES INDEXPARTITION VIEWS TRIGGERS PACKAGEBODY PACKAGES PROCEDURES FUNCTIONS SEQUENCES OBJECT_COUNT on report
 break on report on _date
