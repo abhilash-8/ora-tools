@@ -8,6 +8,17 @@
 -------------------------------------------------------------------------------------------------
 set lines 500 pages 500
 col owner for a25
+col TABLES              for 9999999
+col TABLEPARTITION      for 9999999
+col INDEXES             for 9999999
+col INDEXPARTITION      for 9999999
+col VIEWS               for 9999999
+col TRIGGERS            for 9999999
+col PACKAGEBODY         for 9999999
+col PACKAGES            for 9999999
+col PROCEDURES          for 9999999
+col FUNCTIONS           for 9999999
+col SEQUENCES           for 9999999
 compute sum of TABLES TABLEPARTITION   INDEXES INDEXPARTITION VIEWS TRIGGERS PACKAGEBODY PACKAGES PROCEDURES FUNCTIONS SEQUENCES OBJECT_COUNT on report
 break on report on _date
 
