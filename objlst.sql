@@ -94,5 +94,14 @@ prompt ### What objects are INVALID ?
 col object_name for a50
 select owner,object_name,object_type from dba_objects where status like 'INVALID';
 
+prompt ### Dependencies of INVALID Objects found 
+col REF_OWNER    for a10
+col REF_LINK     for a8
+col REF_NAME     for a35 trunc
+col REF_TYPE     for a15
+col DEP_TYPE     for a10
 
+select owner,name,type,referenced_owner ref_owner,referenced_type ref_type , referenced_name ref_name ,referenced_link_name ref_link , dependency_type dep_type 
+from dba_dependencies dp
+where dp.name in (select object_name from dba_objects where status like 'INVALID');
 
